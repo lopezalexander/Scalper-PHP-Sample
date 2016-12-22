@@ -8,4 +8,10 @@ To Test Project:
         username: admin
         password: admin
         
+       Custom member:
+       username: alextestdummy@gmail.com
+       password: asdasd
         
+       This would allow test functionality of adding to cart. send mail error will pop if SMTP not setup locally.
+       
+***Old Project From: 2014
