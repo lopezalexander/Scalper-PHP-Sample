@@ -1,0 +1,395 @@
+body{
+	background: url("../images/blackbrick.jpg") repeat;
+}
+/*  *********************************************************************************************  */
+/*  *************************			ADMIN LOGIN 			**********************************  */
+/*  *********************************************************************************************  */
+#login_div{
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	margin: -200px 0 0 -250px;
+	width: 500px;
+	height: 400px;
+	background-color: white;
+	border-radius: 500px;
+	border: 3px solid blue;
+	background-color: lightgray;
+}
+
+#login_div h1{
+	position: absolute;
+	left: 35%;
+	color: black;
+	font-size: 50px;
+	
+}
+#login_div label{
+	font-weight: bold;
+}
+#login_div label, .admin_input{
+	margin-left: 80px;
+	font-size: 20px;
+	}
+
+#login_div form{
+		margin-top: 50px;
+	}
+
+#admin_submit_button{
+	font-size: 15px;
+	margin-left: 220px;
+}
+
+#ErrorLog{
+	margin-left: 75px;
+	display: none;
+	color: red;
+}
+
+/*  *********************************************************************************************  */
+/*  *************************			CMS INDEX LOGIN 			**********************************  */
+/*  *********************************************************************************************  */
+
+#CMS_back_page{
+	background-color:lightgray; 
+	margin: 0 auto;
+	width: 900px;
+	min-height: 1600px;
+	border-radius: 5px;
+
+}
+
+#logo{
+	width: 800px;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+
+#Ticketlogo{
+	width: 650px;
+	height: 200px;
+	margin-top: 20px;
+	background: rgba(0,100,100,0);
+}
+
+#CMSlogo{
+	position: absolute;
+	float: right;
+	margin-left: -50px;
+	margin-top: -5px;
+	width: 180px;
+	height: 150px;
+}
+
+#log_out_form{
+	margin-top: 25px;
+	margin-left: -10px;
+}
+#add_event_button{
+	text-align: center;
+}
+
+#add_event_container form{
+	font-weight: bold;
+	width: 452px;
+	height: 490px;
+	margin-left: -2px;
+	padding-left: 150px;
+	margin-top: 35px;
+	margin-bottom: 15px;
+	padding-top: 0px;
+	border-radius: 10px;
+	border: 2px double black;
+	box-shadow: 0 0px 5000px 25px black inset;
+	background-color: #53bec9;
+	}
+
+#add_event_container2 form{
+	font-weight: bold;
+	width: 452px;
+	height: 490px;
+	margin-top: 50px;
+	margin-left: -2px;
+	padding-left: 150px;
+	padding-top: 0px;
+	border-radius: 10px;
+	border: 2px double black;
+	box-shadow: 0 0px 5000px 25px black inset;
+	background-color: #53bec9;
+	}
+#add_event_container form h2{
+	margin-left: 85px;
+	text-decoration: underline;
+
+
+}
+#add_event_container2 form h2{
+	width: 300px;
+	text-decoration: underline;
+}
+
+#add_event_container2 form label{
+	float: left;
+}
+#add_event_container2 form input, #add_event_container2 form select,#add_event_container2 form span{
+	float: left;
+}
+.add_event1{
+	margin-top: 20px;
+	border-radius: 15px;
+	background-color: #a1c5dd;
+	box-shadow: 4px 3px  5px 1px black;
+	width: 220px;
+	height: 50px;
+	color: rgba(195,58,45,1);
+	font-weight: bold;
+	font-size: 25px;
+}
+.add_event1:active, .add_event2:active, .add_event3:active, .add_event4:active, .add_event5:active {
+	box-shadow: 0 0 5px 1px black;
+	}
+
+.add_event2{
+	margin-left: 15px;
+	border-radius: 15px;
+	background-color: #a1c5dd;
+	box-shadow: 4px 3px  5px 1px black;
+	width: 120px;
+	height: 25px;
+	color: rgba(195,58,45,1);
+	font-weight: bold;
+	font-size: 15px;
+}
+
+.add_event3{
+	margin-left: 20px;
+	border-radius: 15px;
+	background-color: #a1c5dd;
+	box-shadow: 4px 3px 5px 1px black;
+	width: 120px;
+	height: 25px;
+	color: rgba(195,58,45,1);
+	font-weight: bold;
+	font-size: 15px;
+}
+
+.add_event4{
+	margin-left: 20px;
+	border-radius: 15px;
+	background-color: #a1c5dd;
+	box-shadow: 4px 3px  5px 1px black;
+	width: 150px;
+	height: 35px;
+	color: rgba(195,58,45,1);
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.add_event5{
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 15px;
+	border-radius: 15px;
+	background-color: #a1c5dd;
+	box-shadow: 4px 3px 5px 1px black;
+	width: 65px;
+	height: 20px;
+	color: rgba(195,58,45,1);
+	font-weight: bold;
+	font-size: 13px;
+}
+
+#h1_display_events{
+	text-align: center;
+	text-decoration: underline;
+}
+
+#display_events{
+	text-align: center;
+	width: 850px;
+	margin-left: 25px;
+	min-height: 250px;
+	
+}
+
+#add_event_container{
+	margin: 0 auto;
+	box-shadow: 0 0 5px 5px black;
+	width:602px;
+	border-radius: 10px;
+
+}
+#add_event_container2{
+	margin: 0 auto;
+	text-align: center;
+	box-shadow: 0 0 5px 5px black;
+	width:602px;
+	border-radius: 10px;
+
+}
+
+
+.missing_info_span{
+	color: #CD0000;
+}
+#error1{
+	display: none;
+	font-size: 17px;
+	color: red;
+	margin-left: -9px;
+}
+#error2{
+	display: none;
+	font-size: 17px;
+	color: red;
+	margin-left: -9px;
+}
+#error3{
+	display: none;
+	font-size: 17px;
+	color: red;
+	margin-left: -9px;
+}
+#error4{
+	display: none;
+	font-size: 17px;
+	color: red;
+	margin-left: -9px;
+}
+#error5{
+	display: none;
+	font-size: 17px;
+	color: red;
+	margin-left: -9px;
+}
+#error6{
+	display: none;
+	font-size: 17px;
+	color: red;
+	margin-left: -9px;
+}
+
+#error7{
+	display: none;
+	font-size: 17px;
+	color: red;
+	margin-left: -9px;
+}
+
+#error8{
+	display: none;
+	font-size: 17px;
+	color: red;
+	margin-left: 0px;
+}
+
+
+
+
+
+
+
+.pagination{
+	margin-top: 15px;
+	margin-left: 400px;
+}
+
+/*  *********************************************************************************************  */
+/*  *************************			CMS INDEX SPORTS SECTION 			*********************  */
+/*  *********************************************************************************************  */
+
+
+
+.event_display{
+	display: inline-block;
+	margin: 0 auto;
+	margin-top: 15px;
+	background-color: #53bec9;
+	border: 3px solid black;
+	border-top: none;
+	border-radius: 15px;
+	border-top-right-radius: 20px;
+	border-top-left-radius: 20px;
+	padding: 0px 5px 0 5px;
+	width: 260px;
+	margin-left: 3px;
+	min-height: 500px;
+	box-shadow: 0 0px 5000px 25px black inset;
+	text-align: center;
+	line-height: 1.8em;
+
+}
+
+#event_no_display{
+	display: inline-block;
+	margin-top: 15px;
+	background-color: #53bec9;
+	border: 3px solid black;
+	border-top: none;
+	border-radius: 15px;
+	border-top-right-radius: 20px;
+	border-top-left-radius: 20px;
+	padding: 0px 5px 0 5px;
+	width: 600px;
+	margin-left: 3px;
+	height: 200px;
+	box-shadow: 0 0px 5000px 25px black inset;
+	text-align: center;
+	line-height: 1.8em;
+}
+
+#event_no_display p{
+
+	font-size: 40px;
+	margin-top: 85px;
+}
+
+.event_detail_container{
+	border: 2px solid black;
+	box-shadow: 0 5px 25px 2px black;
+	border-top-right-radius: 20px;
+	border-top-left-radius: 20px;
+	border-radius: 15px;
+	width: 268px;
+	min-height: 450px;
+	margin-left: -6px;
+}
+
+.event_display_span{
+
+	color: black;
+	font-size: 17px;
+	text-decoration: underline;
+	font-weight: bold;
+	margin-left: 0px;
+	margin-top: 5px;
+}
+
+.database_span{
+	
+	color: #FFDAB9;
+	font-size: 15px;
+	text-decoration: none;
+	font-weight: none;
+
+
+
+}
+.event_name_display{
+	color: #E6DEDC;
+	background-color: #025;
+	border-bottom: 2px solid gray;
+	padding-top: 10px;
+	margin-bottom: 15px;
+	width: 273px;
+	min-height: 30px;
+	font-weight: bold;
+	font-style: italic;
+	font-size: 20px;
+	margin-left: -2px;
+	margin-top: -1px;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+	
+}
