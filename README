@@ -1,0 +1,11 @@
+To Test Project:
+
+1- Create new Database 'scalper' in myphpadmin;
+2- Import Scalper.sql;
+3- Database comes with data
+4a- /Index.php is the main route
+4b- /adminlogin.php is the CMS route
+        username: admin
+        password: admin
+        
+        
